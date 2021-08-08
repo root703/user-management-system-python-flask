@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask
 from src.config.config import ConfigManager
 
 HOST = ConfigManager.get_config("HOST")
